@@ -4,9 +4,13 @@
 }
 .all-header {
   display: block;
+  text-align: center;
+  height: 100px;
 }
 .header-top {
   display: inline-block;
+  width: 80%;
+  text-align: center;
 }
 .header-bottom {
   display: flex;
@@ -14,8 +18,23 @@
 .top-right {
   display: inline-block;
   text-align: right;
+  width: 40%;
 }
 .top-left {
   display: inline-block;
   text-align: left;
+  width: 40%;
+}
+#logo {
+  list-style: none;
+  overflow: hidden;
+  float: left;
+}
+#logo li {
+  width: 140px;
+  display: inline-block;
+}
+#logo li a {
+  text-decoration: none;
+  font-weight: bold;
 }
