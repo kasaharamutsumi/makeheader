@@ -1,14 +1,14 @@
 * {
-  margin: 10px;
   padding: 0%;
 }
 .all-header {
   display: block;
   text-align: center;
   height: 100px;
+  margin-top: 10px;
 }
 .header-top {
-  display: inline-block;
+  display: inline-flex;
   width: 80%;
   text-align: center;
 }
@@ -18,12 +18,12 @@
 .top-right {
   display: inline-block;
   text-align: right;
-  width: 40%;
+  width: 50%;
 }
 .top-left {
   display: inline-block;
   text-align: left;
-  width: 40%;
+  width: 50%;
 }
 #logo {
   list-style: none;
@@ -31,10 +31,16 @@
   float: left;
 }
 #logo li {
-  width: 140px;
+  width: 80px;
   display: inline-block;
 }
 #logo li a {
   text-decoration: none;
   font-weight: bold;
+  margin: 0;
+}
+.instagram {
+  border-left: solid thin #000;
+  border-right: solid thin #000;
+  text-align: center;
 }
