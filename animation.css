@@ -1,0 +1,21 @@
+* {
+  margin: 10px;
+  padding: 0%;
+}
+.all-header {
+  display: block;
+}
+.header-top {
+  display: inline-block;
+}
+.header-bottom {
+  display: flex;
+}
+.top-right {
+  display: inline-block;
+  text-align: right;
+}
+.top-left {
+  display: inline-block;
+  text-align: left;
+}
