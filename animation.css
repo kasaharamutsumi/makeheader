@@ -77,3 +77,13 @@ body {
   margin-left: 5px;
   margin-right: 5px;
 }
+#botttom-menu ul {
+  overflow: hidden;
+  list-style: none;
+  margin: 0 auto;
+  z-index: 20;
+}
+#botttom-menu ul li {
+  display: inline-block;
+  padding: 26px 10px 20px 10px;
+}
