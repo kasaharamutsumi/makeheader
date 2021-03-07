@@ -6,6 +6,11 @@
   text-align: center;
   height: 100px;
   margin-top: 10px;
+  background-color: rgb(0, 89, 88);
+  margin-top: 0;
+}
+body {
+  margin-top: 0;
 }
 .header-top {
   display: inline-flex;
@@ -29,6 +34,7 @@
   list-style: none;
   overflow: hidden;
   float: left;
+  margin-left: 40%;
 }
 #logo li {
   width: 80px;
@@ -48,9 +54,12 @@
   text-align: center;
 }
 .name {
-  font-size: 30px;
-  margin-top: 10px;
+  font-size: 50px;
+  margin: 5px;
+  color: aliceblue;
 }
 .code-name {
   font-size: 10px;
+  color: aliceblue;
+  margin: 5px;
 }
