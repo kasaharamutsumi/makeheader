@@ -136,4 +136,12 @@ body {
 }
 .bottom-menu {
   text-align: center;
+  width: 100%;
+}
+ul.btn-menu {
+  margin-top: 0%;
+  margin-bottom: 0;
+  margin-right: 0;
+  text-align: center;
+  font-size: 30px;
 }
